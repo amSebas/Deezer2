@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+}
+
+.topbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+
+body{
+    font-family: 'Roboto', "Open Sans", Arial, sans-serif;
+    background: #171719;
+    color: white;  
+    margin: 0px;  
+    width: 100%;
+    height: 100%;
+}
+
+.body::-webkit-scrollbar{
+    background: #171719;
+    border: 1px solid rgba(255, 255, 255, 0.137);
+}
+
+.body::-webkit-scrollbar-thumb{
+    background: #53525c;
+    border-radius: 50px;
+}
+  
+
+.card-partners{
+    width: 280px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 19px;    
+    left: 60px;
+    color: white;    
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.397);
+    border-radius: 10px;
+    
+}
+
+.partners-text{
+    position: absolute;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    top: 25px;
+}
+
+.tigo-logo{
+    position: absolute;
+    width: 25px;
+    top: 65px;
+    left: 130px;
+}
+
+.deezer-logo-topbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    left: 270px;
+}
+
+.logo-topbar p{
+    position: absolute;
+    top: 50px;
+    right: 5px;
+    font-size: 35px;
+    color: white;
+}
+
+.logo-topbar img{
+    position: absolute;
+    width: 30px;
+    right: 115px;
+}
+
+.log-in{
+    width: 150px;
+    height: 50px;
+    right: 100px;
+    top: 40px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px; 
+}
+
+.titulo-header{
+    width: 700px;
+    position: absolute;
+    left: 590px; 
+}
+
+.subtitulo-header {
+    width: 680px;
+    height: 60px;
+    top: 300px; 
+    left: 610px; 
+    position: absolute;
+    background: #323236;   
+    border-radius: 5px; 
+}
+
+.subtitulo-header h3{
+    position: absolute;
+    left: 60px;
+    top: 5px;
+    font-size: 16px;
+} 
+
+.subtitulo-header img{
+    position: absolute;
+    width: 25px;
+    top: 20px;
+    left: 25px;;
+}    
+
+svg{
+    position: absolute;
+    bottom: 600px;
+    left: 590px;
+}
+
+.offer-1, .offer-2, .offer-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 690px;
+    height: 450px;
+    top: 250px;    
+    left: 570px;
+    margin: 30px;
+    color: white;
+    background: linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%,#2efb74 132.54%);    
+    position: relative;
+    border-radius: 10px;
+}
+
+.offer-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 690px;
+    height: 450px;
+    top: 250px;    
+    left: 570px;
+    margin: 30px;
+    color: white;
+    background: linear-gradient(53.13deg,#dc4c11 10.71%,#feab2e);    
+    position: relative;
+    border-radius: 10px;
+}
+
+
+
+.suscription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 70px;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    margin: 20px 0 10px 0 ;
+    background: #171719;
+    border-radius: 50px;
+}
+
+.suscription:hover{
+    background: white;
+    color: #171719;
+}
+
+.suscription-2{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.suscription-3{
+    text-decoration: none;
+    color: white;
+}
+
+.suscription-4{
+    color: white;
+    margin: 0 0 20px 0;
+}
+
+.boton-despliegue{
+    width: 690px;
+    height: 45px;
+    margin: 20px;
+    top: 880px;
+    left: 580px;
+    border-radius: 50px;
+    position: absolute;
+    color: white;
+    background: #171719;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid rgba(255, 255, 255, 0.418);
+}
+
+.boton-despliegue-2{
+    width: 690px;
+    height: 45px;
+    margin: 20px;
+    top: 950px;
+    left: 580px;
+    border-radius: 50px;
+    position: absolute;
+    color: white;
+    background: #171719;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid rgba(255, 255, 255, 0.418);
+}
+
+.partners-offer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 690px;
+    height: 200px;
+    top: 250px;    
+    left: 570px;
+    margin: 30px;
+    color: white;
+    background: -webkit-gradient(linear,left top,left bottom,from(#202122),color-stop(55.56%,#3a3b47));
+    position: relative;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.partners-offer p{
+    position: absolute;
+    font-size: 18px;
+    top: 15px;
+}
+
+.partners-offer img{
+    position: absolute;
+    width: 30px;
+    top: 70px;
+}
+
+.partners-offer span{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+
+
+.offer-1 h1, .offer-2 h1, .offer-3 h1, .offer-4 h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.offer-1 p, .offer-2 p, .offer-3 p, .offer-4 p{
+    margin: 15px 130px 0 90px;
+    font-size: 16px;
+}
+
+.gift-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 690px;
+    height: 500px;
+    top: 250px;    
+    left: 570px;
+    margin: 30px;
+    color: white;
+    background: linear-gradient(166deg,#202122 39%,#3c3c49 82%);  
+    position: relative;
+    border-radius: 10px;
+}
+
+.gift-cards img{
+    width: 290px;
+}
+
+.legal{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #92929d;
+    width: 690px;
+    position: absolute;
+    top: 3200px;
+    left: 605px;
+}
+
+.footer{
+    position: relative;
+    top: 600px;
+}
+
+.footer::before{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #92929d;
+}
+
+.navigation-footer, .social-media{
+    padding: 70px 150px 100px 150px;
+}
+
+.stores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 50px 0;
+}
+
+.stores img{
+    width: 150px;
+    margin: 20px;
+}
+
+.cell-navigation{
+    display: flex;
+}
+
+.navigation-menus :not(:last-child){
+    width: 200px;
+    margin: 0 150px 0 0;
+
+}
+
+
+.navigation-menus a{
+    text-decoration: none;
+    color: white;
+    line-height: 38px;
+}
+
+.links h1{
+    font-size: 16px;
+}
+
+.social-media{
+    display: flex;
+}
+
+.social-media a, .deezer-logo-footer{
+    text-decoration: none;
+    color: white;
+}
+
+.social-media img{
+    width: 30px;
+    height: 30px;
+    margin: 0 20px 0 0;
+}
+
+.logo-footer{
+    margin-right: 610px;
+}
+
+.logo-footer p{
+    position: absolute;
+    top: 690px;
+    right: 830px;
+    font-size: 65px;
+    font-weight: 600;
+}
+
+.logo-footer img{
+    position: absolute;
+    top: 705px;
+    right: 1010px;
+    width: 60px;
+    height: 60px;
+}
+
+.images-footer{
+    margin-right: 530px;
+}
+
