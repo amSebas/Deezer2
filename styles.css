@@ -9,6 +9,21 @@
     grid-template-columns: 1fr 1fr 1fr; 
 }
 
+.topbar::before{
+    content: "";
+    width: 80vw;
+    height: 50vh;
+    background: linear-gradient(125deg,rgba(241, 42, 42, .9) 25%,#bf1ceb 45%,#06ad57 65%,rgb(6, 173, 87,.6) 75%) no-repeat;
+    border-radius: 50%;
+    filter: blur(100px) opacity(.4);
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    margin-top: 0;
+    z-index: -1;
+}
+
+
 body{
     font-family: 'Roboto', "Open Sans", Arial, sans-serif;
     background: #171719;
@@ -111,21 +126,21 @@ body{
     top: 300px; 
     left: 610px; 
     position: absolute;
-    background: #323236;   
+    background: #23232d;   
     border-radius: 5px; 
 }
 
 .subtitulo-header h3{
     position: absolute;
     left: 60px;
-    top: 23px;
+    top: 20px;
     font-size: 16px;
 } 
 
 .subtitulo-header img{
     position: absolute;
     width: 25px;
-    top: 20px;
+    top: 17px;
     left: 25px;;
 }    
 
@@ -360,6 +375,7 @@ svg{
 
 .social-media{
     display: flex;
+    width: 200px 200px 200px;
 }
 
 .social-media a, .deezer-logo-footer{
@@ -394,6 +410,111 @@ svg{
 }
 
 .images-footer{
-    margin-right: 530px;
+    width: 250px;
+    margin-right: 530px
+}
+
+
+@media (max-width: 1890px){
+    .offers{
+        position: relative;
+        right: 100px;
+    }
+
+    .subtitulo-header{
+        top: 130px;
+    }
+    .legal{
+        left: 500px;
+    }
+    
+    .navigation-footer, .social-media{
+        padding: 60px 50px 50px 100px;
+    }
+
+    .navigation-menus :not(:last-child){
+        width: 190px;
+        margin: 0 120px 0 0;
+    }
+
+    .images-footer{
+        width: 250px;
+        margin-right: 300px
+    }
+
+    .logo-footer{
+        margin-right: 650px;
+    }
+    
+    .logo-footer p{
+        position: absolute;
+        top: 650px;
+        right: 680px;
+        font-size: 65px;
+        font-weight: 600;
+    }
+    
+    .logo-footer img{
+        position: absolute;
+        top: 665px;
+        right: 860px;
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 1280px){
+    .logo-topbar p{
+        right: 80px;
+    }
+    
+    .logo-topbar img{
+        right: 190px;
+    }
+    .offers{
+        position: relative;
+        right: 300px;
+    }
+
+    .subtitulo-header{
+        top: 130px;
+    }
+    .legal{
+        left: 300px;
+    }
+    
+    .navigation-footer, .social-media{
+        padding: 60px 50px 50px 70px;
+    }
+
+    .navigation-menus :not(:last-child){
+        width: 190px;
+        margin: 0 50px 0 0;
+    }
+
+    .images-footer{
+        width: 250px;
+        margin-right: 50px
+    }
+
+    .logo-footer{
+        margin-right: 600px;
+    }
+    
+    .logo-footer p{
+        position: absolute;
+        top: 666px;
+        right: 500px;
+        font-size: 65px;
+        font-weight: 600;
+    }
+    
+    .logo-footer img{
+        position: absolute;
+        top: 680px;
+        right: 680px;
+        width: 60px;
+        height: 60px;
+    }
 }
 
